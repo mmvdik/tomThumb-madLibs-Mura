@@ -1,0 +1,63 @@
+#madLibsinner{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-radius: 8%;
+    padding: 10px;
+    height: 300px;
+}
+#mad-tab    {
+    color: black;
+}
+#tom-tab    {
+    color: black;
+}
+#myTab  {
+background-color: darkred;
+}
+#madLibsinner{
+    display: table-cell;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.input {
+    margin: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.output {
+    left: 50%;
+    top: 50%;
+    border: 1px solid;
+}
+.outputin {
+    left: 50%;
+    top: 50%;
+    border: 1px solid;
+}
+
+.fade {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+#tomThumbinner{
+    display: table-cell;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#tomThumbinner{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-radius: 8%;
+    padding: 10px;
+    height: 300px;
+}

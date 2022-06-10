@@ -1,0 +1,42 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./murastyle.css">
+
+    <title>DOMAWKAAAAAA</title>
+  </head>
+  <body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="mad-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">MAD LIBS</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tom-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false" >TOM THUMB</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane active" id="madLibsinner">
+        <div class="input">CHARACTER:<input type="text" id="char1"></div>
+        <div class="input">CHARACTER:<input type="text" id="char2"></div>
+        <div class="input">ADVERB:<input type="text" id="adverb"></div>
+        <div class="input">VERB:<input type="text" id="verb"></div>
+        <button type="button" id="madCalc" class="btn btn-dark">CREATE A STORY!</button>
+        <div class="output"></div>
+      </div>
+      <div class="tab-pane fade" id="tomThumbinner">
+        <div class="input">WIDTH:<input type="text" id="tomWidth"></div>
+        <div class="input">HEIGHT:<input type="text" id="tomHeight"></div>
+        <div class="input">NUM OF COLORS:<input type="text" id="tomNum"></div>
+        <button type="button" id="tomCalc" class="btn btn-dark">CALCULATE</button>
+        <div class="outputin"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./murascript.js"></script>
+  </body>
+
+</html>
